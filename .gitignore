@@ -6,3 +6,11 @@
 !location.json
 !_worker.js
 !docs/
+!app/**
+!gradle/**
+!gradle.properties
+!gradlew
+!gradlew.bat
+!settings.gradle
+!build.gradle
+!app-debug.apk
