@@ -1,3 +1,32 @@
+# Minimal Flask Web App
+
+A simple Flask application with HTML templates, static styles, and a small in-memory Todo feature plus JSON API endpoints.
+
+## Quickstart
+
+1. Install dependencies:
+
+```bash
+python3 -m pip install -r requirements.txt
+```
+
+2. Run the dev server:
+
+```bash
+flask --app 'app:create_app' --debug run --host 0.0.0.0 --port 8000
+```
+
+Open http://localhost:8000 in your browser.
+
+## JSON API
+
+- GET `/api/todos` — list todos
+- POST `/api/todos` — create todo, JSON body: `{ "title": "Buy milk" }`
+
+## Notes
+
+- This app uses an in-memory list for demo purposes. Data resets on restart.
+- Replace `SECRET_KEY` in `app/__init__.py` for production use.
 <h1 align="center">💦 BPB Panel</h1>
 
 ### 🌏 Readme in [Farsi](README_fa.md)
